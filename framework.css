@@ -1,0 +1,275 @@
+.divs {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+/* start Box */
+
+.d-flex {
+  display: flex;
+}
+.d-none {
+  display: none;
+}
+.flex-1 {
+  flex: 1;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.f-coulmn {
+  flex-direction: column;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.a-items {
+  align-items: center;
+}
+.tc {
+  text-align: center;
+}
+.j-content-b {
+  justify-content: space-between;
+}
+.block {
+  display: block;
+}
+/* End Box */
+
+/* padding && margin */
+.m-0 {
+  margin: 0;
+}
+.m-10 {
+  margin: 10px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.m-b {
+  margin-bottom: 15px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pb-20 {
+  padding-left: 20px;
+}
+.p-20 {
+  padding: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+.p-10 {
+  padding: 10px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.f-width {
+  width: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.h-full {
+  height: 100%;
+}
+/* padding && margin */
+/* background*/
+:root {
+  --blue-color: #0075ff;
+  --orange: #f59b0f;
+  --red: #f44336;
+  --grey-color: #888;
+  --green: #22e55c;
+}
+.border {
+  border: 1px solid #ddd;
+}
+.btn-shape {
+  padding: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: #0075ff;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-eee {
+  background-color: #eee !important;
+}
+.bg-ddd {
+  background-color: #ddd;
+}
+.c-white {
+  color: white;
+}
+.c-black {
+  color: black;
+}
+.c-blue {
+  color: var(--blue-color);
+}
+
+.c-grey {
+  color: var(--grey-color);
+}
+.c-red {
+  color: var(--red);
+}
+.c-green {
+  color: var(--green);
+}
+.bg-face {
+  background-color: #1877f2;
+}
+.bg-you {
+  background-color: #ff0000;
+}
+.bg-orange {
+  background-color: #f59b0f;
+}
+.c-orange {
+  color: #f59b0f;
+}
+/* background*/
+
+/* position */
+.p-relative {
+  position: relative;
+}
+.p-absoulte {
+  position: absolute;
+}
+/* position */
+/* border radius */
+.br-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.border {
+  border-bottom: 1px solid #ddd;
+}
+/* border radius */
+/* font */
+.fs-14 {
+  font-size: 14px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+/* font */
+/* component */
+.f-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+/* component */
+/* gird */
+
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.g-gap-20 {
+  gap: 20px;
+}
+.g-gap-10 {
+  gap: 10px;
+}
+.m-tra {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+@media (max-width: 767px) {
+  .align-c-mobile {
+    text-align: center !important;
+  }
+  .d-block {
+    display: block;
+  }
+  .gap-5 {
+    gap: 5px;
+  }
+  .grid-mob {
+    grid-template-columns: minmax(150px, 1fr);
+  }
+  .profile-page .info .box {
+    min-width: auto;
+  }
+  /* .d-grid {
+    grid-template-columns: minmax(300px, 1fr);
+
+
+  } */
+}
